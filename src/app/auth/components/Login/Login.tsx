@@ -105,7 +105,7 @@ const Login: FC = () => {
 				</Box>
 				<Button variant="contained" color="primary" sx={{ width: "100%" }} disabled={email === '' || password === ''} type="submit">Login</Button>
 				<Divider sx={{ color: 'text.secondary', my: "1.5rem" }} >or</Divider>
-				<Button variant="outlined" startIcon={<img src={GoogleLogo} alt="Google" />} color="primary" sx={{ width: "100%" }} type="submit">Login with Google</Button>
+				<Button variant="outlined" startIcon={<img src={GoogleLogo} alt="Google" />} color="primary" sx={{ width: "100%" }} type="submit">Login with Google  ttt</Button>
 			</form>
 
 		</Layout>
